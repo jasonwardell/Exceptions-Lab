@@ -1,5 +1,6 @@
 package lab2;
 
+
 /**
  * This challenge is similar to lab1, except that the architecture 
  * has change to SOA. Now it's more important than ever to throw exceptions
@@ -13,11 +14,7 @@ package lab2;
 public class Challenge2 {
 
     public static void main(String[] args) {
-        try {
+        
         new InputOutputGui().startConversation();
-    } catch( IllegalArgumentException iae )
-      {
-         System.out.println( iae.getMessage() );
-      }
-    }  
+    }
 }
